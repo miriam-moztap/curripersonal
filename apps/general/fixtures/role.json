@@ -1,0 +1,57 @@
+[
+    {
+        "model": "general.role",
+        "pk": 1,
+        "fields": {
+            "name": "Super Administrador",
+            "description": "Administrador del sistema, tiene permiso absoluto del sistema",
+            "isSuperAdmin": "True",
+            "status_delete": "False",
+            "host": "hackademy.lat"
+        }
+    },
+    {
+        "model": "general.role",
+        "pk": 2,
+        "fields": {
+            "name": "Administrador",
+            "description": "Rol del administrador",
+            "isSuperAdmin": "False",
+            "status_delete": "False",
+            "host": "hackademy.lat"
+        }
+    },
+    {
+        "model": "general.role",
+        "pk": 3,
+        "fields": {
+            "name": "Company",
+            "description": "Rol de la empresa",
+            "isSuperAdmin": "False",
+            "status_delete": "False",
+            "host": "*"
+        }
+    },
+    {
+        "model": "general.role",
+        "pk": 4,
+        "fields": {
+            "name": "Padawan",
+            "description": "Rol de la padawan",
+            "isSuperAdmin": "False",
+            "status_delete": "False",
+            "host": "hackademy.mx"
+        }
+    },
+    {
+        "model": "general.role",
+        "pk": 5,
+        "fields": {
+            "name": "Extern",
+            "description": "Rol de la extern",
+            "isSuperAdmin": "False",
+            "status_delete": "False",
+            "host": "*"
+        }
+    }
+]
